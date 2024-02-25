@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const expres = require(expres)
+const express = require('express')
 const app = express()
 
 app.get('/',(req,res)=>{
